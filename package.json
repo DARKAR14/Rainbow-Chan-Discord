@@ -1,0 +1,25 @@
+{
+  "name": "rainbow-role-main",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "BeingYT#6596",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "discord.js": "^12.5.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon ./index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
